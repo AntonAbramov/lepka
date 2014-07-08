@@ -1,15 +1,9 @@
 body {
-	//background:url(../img/patern-bg.jpg) repeat #fff;
-	background:url(../img/pattern.png) repeat #fff;
-	font-size: 13px;
-	font-family: $font;
+	font-size: 14px;
 	color:#707070;
 	line-height: 20px;
 	min-width: 960px;
-	> .body {
-		position: relative;
-		z-index: 1;
-	}
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -42,15 +36,6 @@ a {
 		text-decoration: none;
 	}
 }
-textarea {
-	resize: none;
-	border:2px solid #e3e4e8;
-	border-radius: 3px;
-	padding:10px;
-	color:#707070;
-	font-size: 13px;
-	line-height: 16px;
-}
 .cf {
 	&:after {
 		content:"";
@@ -66,6 +51,9 @@ textarea {
 }
 .right {
 	float:right;
+}
+.left {
+	float:left;
 }
 .w960 {
 	width:960px;
