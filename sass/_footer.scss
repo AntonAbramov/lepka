@@ -5,6 +5,7 @@
 	padding:20px 0;
 	height:100px;
 	position: relative;
+	z-index: 2;
 	&:before {
 		top:-200px;
 		background: url(../img/shadow-bottom.png) repeat-x;
