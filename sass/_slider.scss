@@ -1,0 +1,8 @@
+.slider {
+	@extend .inn;
+	position: relative;
+	z-index: 5;
+}
+.slidesjs-pagination {
+	display: none;
+}

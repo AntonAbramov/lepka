@@ -1,0 +1,27 @@
+.main-navigation {
+	@extend .cf;
+	padding-left: 200px;
+	a {
+		display: block;
+		margin-left:15px;
+		float:left;
+		font-size: 20px;
+		text-transform: uppercase;
+		text-indent: 0;
+		color:#fff;
+		text-decoration: none;
+		&:first-child {
+			margin-left: 0;
+		}
+		&:hover, &:focus {
+			color:#9a855d;
+			text-decoration: none;
+		}
+		&.is-active, &.is-active:hover, &.is-active:focus {
+			color:#977e46;
+			text-decoration: none;
+			cursor: default;
+		}
+
+	}
+}
