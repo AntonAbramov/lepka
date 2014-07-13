@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	slider();
-
+	gallery();
 
 });
 
@@ -59,4 +59,22 @@ var slider = function () {
 	}
 }
 
+var gallery = function () {
+	var item = $(".fancybox")
+	if (item.length) {
+		item.fancybox({
+			prevEffect: 'none',
+			nextEffect: 'none',
+			helpers: {
+				title: {
+					type: 'outside'
+				},
+				thumbs: {
+					width: 50,
+					height: 50
+				}
+			}
+		});
+	}
+}
 
