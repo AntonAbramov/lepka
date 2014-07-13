@@ -10,6 +10,7 @@
 	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all"/>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/fancybox.css" type="text/css" media="all"/>
 	<link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css">
 	<link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
 	<link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
@@ -61,7 +62,7 @@
 				<h1>Колонны</h1>
 			</div>
 			<p>
-				<strong><a href="/gallery/kolonnu.html">Колнна</a> в архитектуре</strong> — столб, часто цилиндрической формы. В классической архитектуре
+				<strong><a href="/gallery/kolonnu.html">Колонна</a> в архитектуре</strong> — столб, часто цилиндрической формы. В классической архитектуре
 				поддерживает антаблемент (или арки).<br />
 				Колонна также может не поддерживать какой-либо массивный строительный элемент,
 				а служить декоративным или триумфальным украшением, например, со
@@ -70,9 +71,28 @@
 			</p>
 			<div class="gallery-table">
 				<div class="row">
-					<div class="item"></div>
-					<div class="item"></div>
-					<div class="item"></div>
+					<div class="item">
+						<a rel="colonna" class="fancybox" href="img/gallery/img1.jpg">
+							<img src="img/gallery/img1.jpg" alt=""/>
+							<span>
+								Simple text
+								Simple text
+								Simple text
+								Simple text
+								Simple text
+							</span>
+						</a>
+					</div>
+					<div class="item">
+						<a rel="colonna" class="fancybox" href="img/gallery/img1.jpg">
+							<img src="img/gallery/img1.jpg" alt=""/>
+						</a>
+					</div>
+					<div class="item">
+						<a rel="colonna" class="fancybox" href="img/gallery/img1.jpg">
+							<img src="img/gallery/img1.jpg" alt=""/>
+						</a>
+					</div>
 				</div>
 				<div class="row">
 					<div class="item"></div>
@@ -106,5 +126,10 @@
 </footer>
 </body>
 <script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/helpers/jquery.fancybox-buttons.js"></script>
+<script src="js/helpers/jquery.fancybox-media.js"></script>
+<script src="js/helpers/jquery.fancybox-thumbs.js"></script>
 <script src="js/init.js"></script>
 </html>
